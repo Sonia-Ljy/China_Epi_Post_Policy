@@ -14,4 +14,4 @@ Due to restrictions on data sharing by [GISAID](https://gisaid.org/), we do not 
 
 ## Acknowledgements
 
-We gratefully acknowledge [CNCB](https://ngdc.cncb.ac.cn/), [Cov-Spectrum](https://cov-spectrum.org/), and [GISAID](https://gisaid.org/) database, and all the authors, originating and submitting laboratories of the SARS-CoV-2 sequences for sharing their work in open databases.
+We gratefully acknowledge [CNCB](https://ngdc.cncb.ac.cn/), [Cov-Spectrum](https://cov-spectrum.org/), and [GISAID](https://gisaid.org/) databases, and all the authors, originating and submitting laboratories of the SARS-CoV-2 sequences for sharing their work in open databases.
