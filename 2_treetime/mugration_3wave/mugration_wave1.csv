@@ -1,0 +1,1026 @@
+,EventTime,Origin,Destination
+1,2022.193397,Hong Kong,Shanghai
+2,2022.378607,Hong Kong,Taiwan
+3,2022.431357,Hong Kong,Guangxi
+4,2022.466957,Hong Kong,Yunnan
+5,2022.471557,Hong Kong,Taiwan
+6,2022.497137,Hong Kong,Jiangsu
+7,2022.523297,Taiwan,Shanghai
+8,2022.526657,Hong Kong,Taiwan
+9,2022.532407,Yunnan,Taiwan
+10,2022.537707,Guangxi,Taiwan
+11,2022.547237,Hong Kong,Taiwan
+12,2022.550587,Hong Kong,Henan
+13,2022.553997,Shanghai,Jiangsu
+14,2022.562617,Guangxi,Yunnan
+15,2022.563447,Hong Kong,Taiwan
+16,2022.570627,Hong Kong,Anhui
+17,2022.607477,Hong Kong,Xinjiang
+18,2022.629107,Jiangsu,Yunnan
+19,2022.632397,Jiangsu,Anhui
+20,2022.632987,Yunnan,Guangdong
+21,2022.645437,Henan,Hebei
+22,2022.646007,Guangxi,Taiwan
+23,2022.649307,Taiwan,Yunnan
+24,2022.664567,Anhui,Sichuan
+25,2022.669147,Yunnan,Jilin
+26,2022.672717,Jiangsu,Zhejiang
+27,2022.679547,Hong Kong,Shandong
+28,2022.694907,Hong Kong,Shanghai
+29,2022.696787,Anhui,Chongqing
+30,2022.697967,Shanghai,Hong Kong
+31,2022.698767,Anhui,Shandong
+32,2022.700957,Yunnan,Inner Mongolia
+33,2022.702507,Shanghai,Hong Kong
+34,2022.707177,Shanghai,Hubei
+35,2022.713737,Zhejiang,Guangdong
+36,2022.719787,Sichuan,Guangxi
+37,2022.732527,Sichuan,Anhui
+38,2022.734887,Hong Kong,Taiwan
+39,2022.735197,Anhui,Jiangxi
+40,2022.743527,Sichuan,Shaanxi
+41,2022.745087,Guangdong,Jilin
+42,2022.745167,Sichuan,Tianjin
+43,2022.751037,Jiangsu,Shanghai
+44,2022.752997,Anhui,Hebei
+45,2022.753207,Sichuan,Shanghai
+46,2022.753347,Anhui,Jilin
+47,2022.760537,Anhui,Heilongjiang
+48,2022.766427,Shanghai,Yunnan
+49,2022.771227,Anhui,Jilin
+50,2022.774467,Sichuan,Fujian
+51,2022.775117,Anhui,Zhejiang
+52,2022.778537,Sichuan,Shaanxi
+53,2022.781707,Jiangsu,Taiwan
+54,2022.784567,Anhui,Beijing
+55,2022.786737,Taiwan,Shanghai
+56,2022.786837,Hong Kong,Shanghai
+57,2022.787417,Hebei,Hunan
+58,2022.792737,Hong Kong,Hebei
+59,2022.799177,Heilongjiang,Shaanxi
+60,2022.802787,Shaanxi,Taiwan
+61,2022.806207,Guangxi,Hainan
+62,2022.806917,Anhui,Shanghai
+63,2022.807237,Yunnan,Sichuan
+64,2022.811707,Henan,Qinghai
+65,2022.812967,Hong Kong,Guangdong
+66,2022.813737,Guangxi,Yunnan
+67,2022.825237,Hebei,Tianjin
+68,2022.825327,Henan,Shanghai
+69,2022.826017,Hebei,Shandong
+70,2022.826847,Heilongjiang,Hunan
+71,2022.827227,Shanghai,Fujian
+72,2022.827917,Yunnan,Taiwan
+73,2022.828367,Jiangsu,Liaoning
+74,2022.829667,Jiangsu,Shaanxi
+75,2022.835357,Hunan,Hebei
+76,2022.836837,Shaanxi,Hong Kong
+77,2022.836867,Heilongjiang,Tianjin
+78,2022.838287,Jiangsu,Zhejiang
+79,2022.838507,Sichuan,Hubei
+80,2022.839307,Tianjin,Liaoning
+81,2022.840177,Jiangxi,Guangdong
+82,2022.842677,Shanghai,Beijing
+83,2022.842927,Shanghai,Zhejiang
+84,2022.844257,Hunan,Zhejiang
+85,2022.845117,Shanghai,Inner Mongolia
+86,2022.845317,Sichuan,Ningxia
+87,2022.848377,Anhui,Hubei
+88,2022.848557,Shanghai,Beijing
+89,2022.848797,Shanghai,Liaoning
+90,2022.850987,Shaanxi,Ningxia
+91,2022.852187,Guangxi,Hong Kong
+92,2022.852597,Shanghai,Hong Kong
+93,2022.852927,Shanghai,Shanxi
+94,2022.855087,Shandong,Anhui
+95,2022.855297,Shanghai,Jiangxi
+96,2022.855587,Zhejiang,Shanghai
+97,2022.855897,Henan,Shanghai
+98,2022.858467,Tianjin,Jilin
+99,2022.865987,Taiwan,Shanghai
+100,2022.871937,Anhui,Guizhou
+101,2022.871947,Anhui,Fujian
+102,2022.872007,Guangdong,Taiwan
+103,2022.873977,Anhui,Jiangsu
+104,2022.874207,Anhui,Shanghai
+105,2022.874257,Hebei,Beijing
+106,2022.877827,Hebei,Jilin
+107,2022.881267,Inner Mongolia,Shaanxi
+108,2022.881937,Yunnan,Guizhou
+109,2022.888397,Inner Mongolia,Jilin
+110,2022.888537,Jiangsu,Jiangxi
+111,2022.888757,Jiangsu,Xinjiang
+112,2022.889347,Henan,Hubei
+113,2022.890257,Shaanxi,Hainan
+114,2022.891867,Jiangxi,Jiangsu
+115,2022.892277,Hubei,Heilongjiang
+116,2022.892817,Henan,Anhui
+117,2022.895097,Taiwan,Yunnan
+118,2022.895987,Zhejiang,Guangxi
+119,2022.896137,Jiangsu,Fujian
+120,2022.897577,Chongqing,Shanghai
+121,2022.898187,Shaanxi,Guangdong
+122,2022.898707,Hebei,Shandong
+123,2022.899387,Jiangsu,Zhejiang
+124,2022.901457,Jiangsu,Heilongjiang
+125,2022.901467,Shanghai,Hainan
+126,2022.902237,Inner Mongolia,Qinghai
+127,2022.903937,Beijing,Zhejiang
+128,2022.904507,Sichuan,Fujian
+129,2022.905637,Shanghai,Beijing
+130,2022.907557,Hong Kong,Yunnan
+131,2022.907977,Xinjiang,Henan
+132,2022.908187,Zhejiang,Tianjin
+133,2022.909057,Hubei,Shanghai
+134,2022.909507,Taiwan,Hong Kong
+135,2022.912807,Anhui,Guangdong
+136,2022.913057,Sichuan,Inner Mongolia
+137,2022.913057,Guangxi,Hebei
+138,2022.913737,Hubei,Yunnan
+139,2022.915357,Sichuan,Xinjiang
+140,2022.915367,Shanghai,Jilin
+141,2022.916427,Hebei,Gansu
+142,2022.916577,Hubei,Taiwan
+143,2022.916887,Jiangsu,Shandong
+144,2022.917737,Hubei,Sichuan
+145,2022.918407,Henan,Xinjiang
+146,2022.918967,Shanghai,Yunnan
+147,2022.919747,Shanghai,Anhui
+148,2022.922247,Zhejiang,Taiwan
+149,2022.922827,Anhui,Shanghai
+150,2022.923177,Shanghai,Taiwan
+151,2022.923257,Jiangsu,Shanghai
+152,2022.923267,Sichuan,Shanghai
+153,2022.923267,Hong Kong,Taiwan
+154,2022.923267,Henan,Shanghai
+155,2022.923267,Anhui,Ningxia
+156,2022.923277,Sichuan,Anhui
+157,2022.923277,Tianjin,Shaanxi
+158,2022.923277,Anhui,Shanghai
+159,2022.923277,Shanghai,Anhui
+160,2022.923277,Shanghai,Anhui
+161,2022.923277,Shanghai,Anhui
+162,2022.923277,Anhui,Shanghai
+163,2022.923277,Anhui,Shanghai
+164,2022.923277,Qinghai,Inner Mongolia
+165,2022.923277,Anhui,Shanghai
+166,2022.924377,Jiangsu,Inner Mongolia
+167,2022.925347,Liaoning,Xinjiang
+168,2022.925377,Beijing,Fujian
+169,2022.925757,Jiangsu,Jiangxi
+170,2022.925767,Shanghai,Jilin
+171,2022.926017,Anhui,Shanghai
+172,2022.926017,Hebei,Inner Mongolia
+173,2022.926017,Zhejiang,Shanghai
+174,2022.926017,Hong Kong,Yunnan
+175,2022.927167,Shanghai,Hubei
+176,2022.927467,Liaoning,Guangxi
+177,2022.928237,Zhejiang,Anhui
+178,2022.928747,Henan,Hubei
+179,2022.928747,Shanghai,Inner Mongolia
+180,2022.928757,Shandong,Fujian
+181,2022.928757,Anhui,Inner Mongolia
+182,2022.928757,Taiwan,Guangxi
+183,2022.928767,Hong Kong,Yunnan
+184,2022.928917,Liaoning,Guangxi
+185,2022.931487,Hubei,Zhejiang
+186,2022.933547,Tianjin,Hunan
+187,2022.933557,Shanghai,Hainan
+188,2022.934237,Sichuan,Xinjiang
+189,2022.934237,Anhui,Zhejiang
+190,2022.934237,Anhui,Fujian
+191,2022.935147,Jiangsu,Fujian
+192,2022.935447,Zhejiang,Shanghai
+193,2022.935937,Hong Kong,Shanghai
+194,2022.936207,Sichuan,Shandong
+195,2022.936767,Hebei,Guangdong
+196,2022.936967,Shanghai,Beijing
+197,2022.936967,Jilin,Ningxia
+198,2022.936977,Sichuan,Shanghai
+199,2022.936977,Anhui,Zhejiang
+200,2022.937567,Ningxia,Tianjin
+201,2022.938967,Shanghai,Anhui
+202,2022.939707,Hainan,Guizhou
+203,2022.939937,Shanghai,Hebei
+204,2022.940107,Tianjin,Guangdong
+205,2022.940167,Liaoning,Ningxia
+206,2022.940807,Jiangsu,Zhejiang
+207,2022.941337,Henan,Gansu
+208,2022.942457,Sichuan,Jilin
+209,2022.942707,Jiangsu,Inner Mongolia
+210,2022.942737,Tianjin,Jiangsu
+211,2022.942867,Shandong,Guangxi
+212,2022.943087,Shanghai,Hubei
+213,2022.943497,Hubei,Gansu
+214,2022.944627,Guangxi,Liaoning
+215,2022.945117,Zhejiang,Heilongjiang
+216,2022.945467,Zhejiang,Anhui
+217,2022.946057,Sichuan,Hebei
+218,2022.946207,Jiangsu,Guangdong
+219,2022.946427,Anhui,Shanxi
+220,2022.947947,Tianjin,Inner Mongolia
+221,2022.948537,Shanghai,Hong Kong
+222,2022.948967,Yunnan,Fujian
+223,2022.949327,Jiangsu,Shandong
+224,2022.950667,Inner Mongolia,Hong Kong
+225,2022.950677,Taiwan,Shanghai
+226,2022.950677,Shanghai,Guangxi
+227,2022.950677,Anhui,Shandong
+228,2022.950687,Hong Kong,Shanghai
+229,2022.950687,Hong Kong,Shanghai
+230,2022.951747,Shanxi,Tianjin
+231,2022.951787,Jiangsu,Guizhou
+232,2022.954417,Beijing,Inner Mongolia
+233,2022.954447,Guangxi,Shanghai
+234,2022.956147,Inner Mongolia,Hebei
+235,2022.956147,Zhejiang,Guangdong
+236,2022.956147,Guangdong,Hebei
+237,2022.956147,Zhejiang,Guangxi
+238,2022.956147,Shanghai,Guangdong
+239,2022.956157,Tianjin,Hebei
+240,2022.956157,Liaoning,Hebei
+241,2022.957337,Jiangsu,Shanxi
+242,2022.958857,Jiangxi,Guizhou
+243,2022.958897,Taiwan,Shanghai
+244,2022.958897,Xinjiang,Hebei
+245,2022.958897,Anhui,Jiangxi
+246,2022.959647,Jilin,Liaoning
+247,2022.959847,Shanghai,Shaanxi
+248,2022.959907,Beijing,Zhejiang
+249,2022.961637,Yunnan,Shanghai
+250,2022.961637,Taiwan,Hong Kong
+251,2022.964077,Jilin,Heilongjiang
+252,2022.964357,Jiangsu,Jiangxi
+253,2022.964357,Jiangsu,Hainan
+254,2022.964367,Hong Kong,Shanghai
+255,2022.964367,Jiangsu,Anhui
+256,2022.964377,Jiangxi,Zhejiang
+257,2022.964377,Inner Mongolia,Liaoning
+258,2022.964467,Jiangsu,Shanghai
+259,2022.967107,Shanghai,Hubei
+260,2022.967107,Beijing,Fujian
+261,2022.967107,Hebei,Gansu
+262,2022.967117,Taiwan,Shanghai
+263,2022.967997,Shanghai,Fujian
+264,2022.969017,Zhejiang,Anhui
+265,2022.969127,Jilin,Fujian
+266,2022.969997,Zhejiang,Hainan
+267,2022.970007,Taiwan,Shandong
+268,2022.970167,Hubei,Xinjiang
+269,2022.972437,Hubei,Guangdong
+270,2022.972577,Shanghai,Hebei
+271,2022.972577,Jiangsu,Guangxi
+272,2022.972587,Zhejiang,Yunnan
+273,2022.972587,Jiangsu,Guangdong
+274,2022.972587,Zhejiang,Yunnan
+275,2022.973437,Tianjin,Henan
+276,2022.974527,Fujian,Shandong
+277,2022.975077,Sichuan,Shanghai
+278,2022.975317,Xinjiang,Shandong
+279,2022.975327,Hainan,Jiangsu
+280,2022.975347,Yunnan,Jilin
+281,2022.976247,Yunnan,Fujian
+282,2022.976917,Guangdong,Shaanxi
+283,2022.978027,Shaanxi,Yunnan
+284,2022.978047,Jiangsu,Guizhou
+285,2022.978067,Anhui,Shandong
+286,2022.978067,Hunan,Guizhou
+287,2022.978067,Jiangsu,Guizhou
+288,2022.978077,Sichuan,Guangdong
+289,2022.978077,Tianjin,Guangdong
+290,2022.978077,Liaoning,Shanxi
+291,2022.978077,Shanghai,Henan
+292,2022.978987,Jiangsu,Guangxi
+293,2022.979367,Shanghai,Taiwan
+294,2022.979457,Tianjin,Inner Mongolia
+295,2022.979707,Jilin,Liaoning
+296,2022.980797,Anhui,Chongqing
+297,2022.980797,Anhui,Guizhou
+298,2022.980807,Beijing,Zhejiang
+299,2022.980807,Guangxi,Shandong
+300,2022.980807,Sichuan,Zhejiang
+301,2022.980807,Shanghai,Shanxi
+302,2022.980817,Shanghai,Tianjin
+303,2022.981237,Jiangsu,Guangxi
+304,2022.983547,Sichuan,Xinjiang
+305,2022.983547,Beijing,Xinjiang
+306,2022.983547,Shanghai,Ningxia
+307,2022.983547,Anhui,Fujian
+308,2022.983547,Inner Mongolia,Ningxia
+309,2022.983547,Chongqing,Ningxia
+310,2022.983547,Guangxi,Hunan
+311,2022.983557,Ningxia,Shaanxi
+312,2022.983887,Ningxia,Gansu
+313,2022.984617,Jiangsu,Hainan
+314,2022.985287,Shanghai,Yunnan
+315,2022.986287,Sichuan,Hainan
+316,2022.986287,Anhui,Fujian
+317,2022.986287,Hebei,Ningxia
+318,2022.986297,Shanghai,Sichuan
+319,2022.986297,Yunnan,Shandong
+320,2022.986307,Guangdong,Hong Kong
+321,2022.989027,Zhejiang,Guangxi
+322,2022.989027,Jiangsu,Hubei
+323,2022.989037,Sichuan,Yunnan
+324,2022.990517,Hunan,Zhejiang
+325,2022.990957,Hebei,Fujian
+326,2022.991757,Jilin,Guangxi
+327,2022.991767,Sichuan,Chongqing
+328,2022.991767,Jiangsu,Sichuan
+329,2022.992267,Shanghai,Liaoning
+330,2022.992687,Guangxi,Jiangsu
+331,2022.992727,Jiangsu,Henan
+332,2022.993987,Anhui,Heilongjiang
+333,2022.994427,Inner Mongolia,Qinghai
+334,2022.994497,Anhui,Shanxi
+335,2022.994497,Anhui,Shandong
+336,2022.994497,Yunnan,Inner Mongolia
+337,2022.994497,Hunan,Shandong
+338,2022.994497,Jiangsu,Inner Mongolia
+339,2022.994497,Jiangsu,Henan
+340,2022.994507,Henan,Xinjiang
+341,2022.994507,Tianjin,Xinjiang
+342,2022.994507,Jiangsu,Sichuan
+343,2022.994507,Jiangsu,Guangdong
+344,2022.994507,Anhui,Henan
+345,2022.994507,Jiangsu,Henan
+346,2022.994507,Jiangsu,Henan
+347,2022.994517,Yunnan,Jilin
+348,2022.994527,Inner Mongolia,Guangdong
+349,2022.995507,Inner Mongolia,Hainan
+350,2022.997237,Anhui,Shandong
+351,2022.997237,Shanghai,Hong Kong
+352,2022.997237,Anhui,Jiangxi
+353,2022.997237,Shanghai,Hebei
+354,2022.997237,Jiangsu,Shanghai
+355,2022.997247,Hong Kong,Taiwan
+356,2022.997247,Anhui,Shanxi
+357,2022.997247,Sichuan,Jiangxi
+358,2022.997247,Sichuan,Yunnan
+359,2022.997247,Sichuan,Zhejiang
+360,2022.997247,Shaanxi,Gansu
+361,2022.997247,Liaoning,Gansu
+362,2022.997247,Sichuan,Chongqing
+363,2022.997247,Anhui,Jiangxi
+364,2022.997247,Anhui,Guangxi
+365,2022.997247,Fujian,Zhejiang
+366,2022.997247,Inner Mongolia,Chongqing
+367,2022.997247,Hunan,Yunnan
+368,2022.997247,Zhejiang,Shandong
+369,2022.997247,Hainan,Guangxi
+370,2022.997257,Tianjin,Yunnan
+371,2022.999987,Guangxi,Yunnan
+372,2022.999987,Beijing,Liaoning
+373,2022.999987,Liaoning,Heilongjiang
+374,2022.999987,Jilin,Heilongjiang
+375,2022.999987,Yunnan,Zhejiang
+376,2022.999987,Anhui,Guangxi
+377,2022.999987,Hunan,Jiangsu
+378,2022.999987,Zhejiang,Hainan
+379,2022.999987,Jiangsu,Anhui
+380,2022.999987,Jiangsu,Hainan
+381,2022.999997,Yunnan,Hainan
+382,2023.000887,Inner Mongolia,Hainan
+383,2023.002197,Anhui,Sichuan
+384,2023.002707,Guizhou,Hunan
+385,2023.002717,Yunnan,Hunan
+386,2023.002717,Zhejiang,Shandong
+387,2023.002727,Anhui,Shanxi
+388,2023.002727,Anhui,Sichuan
+389,2023.002727,Liaoning,Heilongjiang
+390,2023.002727,Jiangsu,Shandong
+391,2023.002727,Jiangsu,Hunan
+392,2023.002737,Shanghai,Tianjin
+393,2023.005447,Hainan,Hunan
+394,2023.005457,Anhui,Hainan
+395,2023.005457,Anhui,Hainan
+396,2023.005457,Anhui,Hainan
+397,2023.005457,Guizhou,Hunan
+398,2023.005457,Shanghai,Hainan
+399,2023.005457,Tianjin,Hainan
+400,2023.005467,Anhui,Hainan
+401,2023.005467,Anhui,Hainan
+402,2023.005467,Sichuan,Hainan
+403,2023.005467,Anhui,Hainan
+404,2023.005467,Guangxi,Hainan
+405,2023.005467,Tianjin,Shaanxi
+406,2023.005467,Shanghai,Hainan
+407,2023.005467,Hubei,Shandong
+408,2023.005467,Guangxi,Hainan
+409,2023.005467,Guangxi,Hainan
+410,2023.005467,Hong Kong,Taiwan
+411,2023.005467,Yunnan,Hainan
+412,2023.005467,Zhejiang,Yunnan
+413,2023.005467,Jiangsu,Shaanxi
+414,2023.005477,Sichuan,Hainan
+415,2023.005477,Yunnan,Hainan
+416,2023.005487,Shanghai,Yunnan
+417,2023.006087,Hubei,Henan
+418,2023.007647,Zhejiang,Anhui
+419,2023.008197,Jiangsu,Guangdong
+420,2023.008197,Jiangsu,Jiangxi
+421,2023.008197,Jiangsu,Hainan
+422,2023.008207,Anhui,Shanghai
+423,2023.008207,Ningxia,Taiwan
+424,2023.008207,Shanghai,Jilin
+425,2023.008207,Yunnan,Jilin
+426,2023.008207,Sichuan,Hainan
+427,2023.008207,Inner Mongolia,Jilin
+428,2023.008207,Jiangxi,Hubei
+429,2023.009387,Hebei,Liaoning
+430,2023.010047,Jiangsu,Hebei
+431,2023.010927,Jiangsu,Hebei
+432,2023.010937,Tianjin,Jilin
+433,2023.010937,Hebei,Jilin
+434,2023.010937,Xinjiang,Henan
+435,2023.010937,Jilin,Liaoning
+436,2023.010937,Shanghai,Guangdong
+437,2023.010947,Hebei,Jilin
+438,2023.010947,Jiangxi,Jilin
+439,2023.010947,Guangxi,Jilin
+440,2023.010947,Liaoning,Jilin
+441,2023.010947,Inner Mongolia,Guangxi
+442,2023.010957,Shanghai,Tianjin
+443,2023.010957,Liaoning,Jilin
+444,2023.010957,Inner Mongolia,Jilin
+445,2023.012687,Anhui,Inner Mongolia
+446,2023.013677,Sichuan,Hunan
+447,2023.013677,Hong Kong,Taiwan
+448,2023.013677,Hong Kong,Inner Mongolia
+449,2023.013677,Jiangsu,Shandong
+450,2023.013677,Jiangsu,Shanghai
+451,2023.013677,Jiangsu,Hunan
+452,2023.013687,Sichuan,Xinjiang
+453,2023.013687,Shaanxi,Inner Mongolia
+454,2023.013687,Sichuan,Jiangsu
+455,2023.013687,Anhui,Jiangxi
+456,2023.013687,Anhui,Guangdong
+457,2023.013687,Zhejiang,Guangxi
+458,2023.013687,Hebei,Inner Mongolia
+459,2023.013687,Tianjin,Inner Mongolia
+460,2023.013687,Anhui,Shandong
+461,2023.013687,Shanxi,Inner Mongolia
+462,2023.013687,Jiangsu,Fujian
+463,2023.013687,Zhejiang,Taiwan
+464,2023.013687,Zhejiang,Hunan
+465,2023.013687,Zhejiang,Taiwan
+466,2023.013697,Yunnan,Guangxi
+467,2023.013697,Hong Kong,Jilin
+468,2023.016417,Shaanxi,Hebei
+469,2023.016417,Sichuan,Shanxi
+470,2023.016417,Yunnan,Shanghai
+471,2023.016417,Jiangsu,Shanghai
+472,2023.016417,Jiangsu,Guangxi
+473,2023.016427,Zhejiang,Shandong
+474,2023.016427,Shanghai,Zhejiang
+475,2023.016427,Anhui,Shanghai
+476,2023.016427,Hebei,Ningxia
+477,2023.016427,Sichuan,Shanghai
+478,2023.016427,Zhejiang,Taiwan
+479,2023.016437,Hong Kong,Zhejiang
+480,2023.016437,Liaoning,Ningxia
+481,2023.019157,Anhui,Shanxi
+482,2023.019157,Sichuan,Yunnan
+483,2023.019157,Jilin,Heilongjiang
+484,2023.019157,Hebei,Ningxia
+485,2023.019157,Jiangsu,Taiwan
+486,2023.019167,Beijing,Zhejiang
+487,2023.019167,Beijing,Zhejiang
+488,2023.019167,Tianjin,Hubei
+489,2023.019167,Inner Mongolia,Zhejiang
+490,2023.019167,Hebei,Yunnan
+491,2023.019167,Anhui,Zhejiang
+492,2023.019167,Sichuan,Taiwan
+493,2023.019167,Sichuan,Yunnan
+494,2023.019167,Tianjin,Chongqing
+495,2023.019167,Jiangsu,Shandong
+496,2023.019167,Jiangxi,Zhejiang
+497,2023.021897,Sichuan,Chongqing
+498,2023.021897,Shaanxi,Zhejiang
+499,2023.021897,Zhejiang,Fujian
+500,2023.021897,Zhejiang,Tianjin
+501,2023.021907,Yunnan,Zhejiang
+502,2023.022047,Anhui,Henan
+503,2023.022827,Shandong,Yunnan
+504,2023.024637,Jilin,Yunnan
+505,2023.024637,Shanghai,Taiwan
+506,2023.024647,Zhejiang,Shaanxi
+507,2023.025337,Tianjin,Jiangsu
+508,2023.025567,Jilin,Tianjin
+509,2023.027187,Tianjin,Heilongjiang
+510,2023.027367,Hainan,Ningxia
+511,2023.027377,Anhui,Sichuan
+512,2023.027377,Hubei,Guangdong
+513,2023.027377,Zhejiang,Guangxi
+514,2023.027377,Hebei,Tianjin
+515,2023.027387,Xinjiang,Tianjin
+516,2023.027387,Shanghai,Ningxia
+517,2023.027387,Anhui,Shandong
+518,2023.027397,Inner Mongolia,Ningxia
+519,2023.027837,Anhui,Shandong
+520,2023.028667,Anhui,Hebei
+521,2023.028807,Hong Kong,Shanghai
+522,2023.029727,Hubei,Qinghai
+523,2023.030117,Anhui,Zhejiang
+524,2023.030117,Anhui,Zhejiang
+525,2023.030117,Anhui,Zhejiang
+526,2023.030117,Hebei,Tianjin
+527,2023.030117,Hebei,Gansu
+528,2023.030117,Jiangsu,Guizhou
+529,2023.030117,Jiangsu,Heilongjiang
+530,2023.030117,Jiangsu,Shaanxi
+531,2023.030117,Jiangsu,Inner Mongolia
+532,2023.030127,Anhui,Shanxi
+533,2023.030127,Ningxia,Inner Mongolia
+534,2023.030127,Ningxia,Tianjin
+535,2023.030127,Guangxi,Chongqing
+536,2023.030127,Tianjin,Guizhou
+537,2023.030127,Anhui,Guangdong
+538,2023.030127,Sichuan,Guizhou
+539,2023.030127,Jiangsu,Inner Mongolia
+540,2023.030137,Hebei,Hubei
+541,2023.030137,Yunnan,Guizhou
+542,2023.030137,Inner Mongolia,Shaanxi
+543,2023.031037,Anhui,Fujian
+544,2023.032837,Jiangsu,Heilongjiang
+545,2023.032857,Xinjiang,Gansu
+546,2023.032857,Sichuan,Guangxi
+547,2023.032857,Beijing,Guizhou
+548,2023.032857,Jiangsu,Anhui
+549,2023.032867,Sichuan,Ningxia
+550,2023.032867,Tianjin,Guangdong
+551,2023.032867,Anhui,Jiangxi
+552,2023.032867,Yunnan,Xinjiang
+553,2023.032867,Sichuan,Guizhou
+554,2023.033387,Taiwan,Liaoning
+555,2023.033797,Yunnan,Zhejiang
+556,2023.035597,Tianjin,Gansu
+557,2023.035597,Jilin,Guangdong
+558,2023.035597,Jiangsu,Taiwan
+559,2023.035597,Jiangsu,Hunan
+560,2023.035607,Hebei,Shandong
+561,2023.035607,Zhejiang,Hunan
+562,2023.035607,Zhejiang,Taiwan
+563,2023.035617,Tianjin,Hunan
+564,2023.038337,Anhui,Fujian
+565,2023.038337,Jilin,Inner Mongolia
+566,2023.038337,Shanxi,Heilongjiang
+567,2023.038337,Jiangsu,Guizhou
+568,2023.038347,Sichuan,Gansu
+569,2023.038347,Tianjin,Zhejiang
+570,2023.038347,Shanghai,Guizhou
+571,2023.040407,Zhejiang,Hebei
+572,2023.041077,Anhui,Shanxi
+573,2023.041077,Shanghai,Liaoning
+574,2023.041087,Taiwan,Zhejiang
+575,2023.041087,Anhui,Shandong
+576,2023.041997,Taiwan,Liaoning
+577,2023.043567,Hebei,Jilin
+578,2023.043707,Jiangsu,Heilongjiang
+579,2023.043817,Anhui,Fujian
+580,2023.044927,Yunnan,Jiangsu
+581,2023.044967,Shanghai,Henan
+582,2023.046557,Sichuan,Gansu
+583,2023.046557,Hunan,Hebei
+584,2023.046717,Anhui,Gansu
+585,2023.047367,Hunan,Shandong
+586,2023.049287,Jiangsu,Hainan
+587,2023.049297,Anhui,Sichuan
+588,2023.049297,Yunnan,Fujian
+589,2023.049297,Anhui,Jiangsu
+590,2023.049297,Jiangsu,Heilongjiang
+591,2023.049307,Sichuan,Jiangxi
+592,2023.049307,Sichuan,Heilongjiang
+593,2023.049307,Hunan,Guangxi
+594,2023.049307,Shaanxi,Jiangxi
+595,2023.052037,Hong Kong,Guangdong
+596,2023.052047,Tianjin,Hebei
+597,2023.052047,Zhejiang,Shandong
+598,2023.052487,Shanghai,Guangdong
+599,2023.052717,Taiwan,Yunnan
+600,2023.053107,Shandong,Jiangsu
+601,2023.054587,Taiwan,Hong Kong
+602,2023.054777,Jilin,Heilongjiang
+603,2023.054787,Beijing,Taiwan
+604,2023.058797,Inner Mongolia,Shanghai
+605,2023.060257,Shandong,Hainan
+606,2023.060257,Jiangsu,Hainan
+607,2023.060257,Jiangsu,Hainan
+608,2023.060267,Liaoning,Anhui
+609,2023.060267,Zhejiang,Hainan
+610,2023.062997,Jiangsu,Guangdong
+611,2023.063597,Shandong,Zhejiang
+612,2023.063977,Shanghai,Heilongjiang
+613,2023.065597,Shanghai,Henan
+614,2023.065747,Shanghai,Xinjiang
+615,2023.065747,Anhui,Hebei
+616,2023.066387,Taiwan,Shanghai
+617,2023.068467,Jiangsu,Anhui
+618,2023.068477,Shanghai,Henan
+619,2023.069287,Guangxi,Shandong
+620,2023.070647,Guangdong,Jiangsu
+621,2023.071217,Jiangsu,Hainan
+622,2023.071227,Anhui,Guangdong
+623,2023.073957,Zhejiang,Guangdong
+624,2023.073957,Tianjin,Shaanxi
+625,2023.073967,Jiangxi,Anhui
+626,2023.075257,Shanghai,Taiwan
+627,2023.076067,Yunnan,Hebei
+628,2023.076697,Hubei,Shandong
+629,2023.077737,Zhejiang,Guangdong
+630,2023.081547,Yunnan,Fujian
+631,2023.081747,Shanghai,Henan
+632,2023.082177,Beijing,Henan
+633,2023.082177,Shanghai,Chongqing
+634,2023.082187,Tianjin,Jiangxi
+635,2023.084917,Guangdong,Hebei
+636,2023.084917,Zhejiang,Fujian
+637,2023.084917,Jiangsu,Zhejiang
+638,2023.084917,Hong Kong,Guangdong
+639,2023.084927,Anhui,Fujian
+640,2023.087657,Taiwan,Hong Kong
+641,2023.087657,Tianjin,Hebei
+642,2023.087657,Liaoning,Fujian
+643,2023.087667,Ningxia,Yunnan
+644,2023.088427,Hebei,Henan
+645,2023.090367,Hubei,Heilongjiang
+646,2023.090367,Gansu,Tianjin
+647,2023.090397,Anhui,Hubei
+648,2023.090397,Zhejiang,Xinjiang
+649,2023.091877,Shanghai,Jiangsu
+650,2023.091947,Jiangsu,Anhui
+651,2023.092687,Jiangxi,Fujian
+652,2023.093127,Yunnan,Hebei
+653,2023.093137,Hubei,Fujian
+654,2023.093137,Jiangsu,Zhejiang
+655,2023.093137,Hainan,Zhejiang
+656,2023.093147,Hebei,Zhejiang
+657,2023.093147,Shanghai,Guangdong
+658,2023.093147,Jiangxi,Zhejiang
+659,2023.093637,Taiwan,Gansu
+660,2023.095877,Ningxia,Hebei
+661,2023.095877,Shanghai,Zhejiang
+662,2023.095877,Jiangsu,Shaanxi
+663,2023.095877,Jiangsu,Shaanxi
+664,2023.095887,Taiwan,Hong Kong
+665,2023.097877,Anhui,Shanxi
+666,2023.098617,Zhejiang,Fujian
+667,2023.098627,Beijing,Zhejiang
+668,2023.098627,Hebei,Shandong
+669,2023.098777,Shanghai,Jiangsu
+670,2023.099817,Beijing,Hebei
+671,2023.099857,Guangdong,Henan
+672,2023.101367,Hong Kong,Taiwan
+673,2023.101837,Shaanxi,Sichuan
+674,2023.104097,Sichuan,Hebei
+675,2023.104097,Yunnan,Xinjiang
+676,2023.104097,Jiangsu,Guangdong
+677,2023.104127,Jiangsu,Zhejiang
+678,2023.105377,Shanghai,Shanxi
+679,2023.106157,Hunan,Hebei
+680,2023.106837,Anhui,Guangdong
+681,2023.106837,Hunan,Shanxi
+682,2023.106837,Zhejiang,Hubei
+683,2023.106837,Jiangxi,Anhui
+684,2023.106837,Zhejiang,Shaanxi
+685,2023.107747,Guangdong,Anhui
+686,2023.108627,Beijing,Fujian
+687,2023.108757,Guangdong,Jiangxi
+688,2023.109567,Guangdong,Hebei
+689,2023.109947,Yunnan,Guangdong
+690,2023.112307,Yunnan,Beijing
+691,2023.112307,Guangdong,Anhui
+692,2023.112307,Inner Mongolia,Tianjin
+693,2023.112317,Shandong,Anhui
+694,2023.112317,Sichuan,Tianjin
+695,2023.112317,Jiangsu,Xinjiang
+696,2023.112327,Inner Mongolia,Beijing
+697,2023.113967,Shanghai,Hubei
+698,2023.115047,Tianjin,Xinjiang
+699,2023.115057,Hong Kong,Taiwan
+700,2023.115067,Hainan,Jiangsu
+701,2023.115077,Anhui,Shanxi
+702,2023.115097,Yunnan,Fujian
+703,2023.115987,Beijing,Hainan
+704,2023.117297,Shaanxi,Fujian
+705,2023.117437,Shanghai,Zhejiang
+706,2023.117787,Guangxi,Shandong
+707,2023.117787,Jiangsu,Liaoning
+708,2023.117787,Jiangxi,Anhui
+709,2023.117797,Tianjin,Shandong
+710,2023.117797,Guizhou,Tianjin
+711,2023.117797,Anhui,Hainan
+712,2023.117807,Inner Mongolia,Shandong
+713,2023.118617,Shanghai,Jiangsu
+714,2023.120167,Jilin,Jiangsu
+715,2023.120537,Sichuan,Hainan
+716,2023.120537,Hunan,Hainan
+717,2023.120557,Jiangsu,Taiwan
+718,2023.121027,Hubei,Sichuan
+719,2023.121057,Anhui,Shandong
+720,2023.121277,Henan,Gansu
+721,2023.121497,Inner Mongolia,Chongqing
+722,2023.121547,Hong Kong,Zhejiang
+723,2023.122607,Hebei,Shanxi
+724,2023.123347,Hubei,Zhejiang
+725,2023.124137,Hubei,Sichuan
+726,2023.124817,Guangdong,Hong Kong
+727,2023.124907,Shanghai,Qinghai
+728,2023.124917,Shanghai,Hong Kong
+729,2023.125537,Shanghai,Hubei
+730,2023.126007,Anhui,Tianjin
+731,2023.126007,Jiangsu,Hubei
+732,2023.126017,Anhui,Beijing
+733,2023.126047,Zhejiang,Taiwan
+734,2023.127917,Shanghai,Anhui
+735,2023.128187,Anhui,Henan
+736,2023.128367,Anhui,Shanghai
+737,2023.128747,Jilin,Liaoning
+738,2023.128747,Anhui,Shaanxi
+739,2023.128757,Shanghai,Heilongjiang
+740,2023.128757,Anhui,Hebei
+741,2023.128757,Inner Mongolia,Anhui
+742,2023.129647,Shanghai,Henan
+743,2023.131497,Anhui,Hebei
+744,2023.131497,Hong Kong,Guangdong
+745,2023.133187,Guangxi,Zhejiang
+746,2023.133397,Henan,Hubei
+747,2023.134207,Jiangsu,Anhui
+748,2023.134227,Tianjin,Hainan
+749,2023.134237,Hebei,Inner Mongolia
+750,2023.134237,Jiangsu,Hebei
+751,2023.134337,Hubei,Anhui
+752,2023.134567,Yunnan,Beijing
+753,2023.135317,Zhejiang,Heilongjiang
+754,2023.136967,Shanxi,Jiangsu
+755,2023.137337,Yunnan,Shaanxi
+756,2023.138847,Hubei,Hong Kong
+757,2023.139707,Anhui,Henan
+758,2023.139717,Shandong,Hainan
+759,2023.139717,Yunnan,Fujian
+760,2023.139727,Shaanxi,Jiangxi
+761,2023.139727,Taiwan,Hainan
+762,2023.139727,Shandong,Hainan
+763,2023.139737,Jiangsu,Beijing
+764,2023.141547,Taiwan,Jiangsu
+765,2023.142167,Shanghai,Sichuan
+766,2023.142447,Anhui,Hebei
+767,2023.142447,Jiangsu,Henan
+768,2023.142457,Taiwan,Hong Kong
+769,2023.142457,Zhejiang,Guangdong
+770,2023.143427,Shanghai,Henan
+771,2023.144077,Shandong,Chongqing
+772,2023.145187,Beijing,Henan
+773,2023.145207,Qinghai,Gansu
+774,2023.146047,Liaoning,Heilongjiang
+775,2023.147407,Liaoning,Beijing
+776,2023.147897,Yunnan,Tianjin
+777,2023.147937,Guangxi,Shaanxi
+778,2023.147937,Taiwan,Hubei
+779,2023.147947,Tianjin,Liaoning
+780,2023.147947,Shanghai,Guangdong
+781,2023.147977,Yunnan,Guangdong
+782,2023.149207,Jiangsu,Hubei
+783,2023.150187,Hunan,Sichuan
+784,2023.150377,Jiangsu,Shanghai
+785,2023.150667,Anhui,Gansu
+786,2023.150677,Shaanxi,Tianjin
+787,2023.150677,Tianjin,Shaanxi
+788,2023.150677,Hong Kong,Guangdong
+789,2023.150677,Hong Kong,Guangdong
+790,2023.151167,Hubei,Anhui
+791,2023.151627,Shanghai,Yunnan
+792,2023.151837,Hubei,Liaoning
+793,2023.153407,Jiangsu,Hubei
+794,2023.153417,Hebei,Heilongjiang
+795,2023.153437,Jiangsu,Shanghai
+796,2023.153437,Zhejiang,Taiwan
+797,2023.153627,Yunnan,Sichuan
+798,2023.154127,Hubei,Yunnan
+799,2023.154167,Zhejiang,Shanghai
+800,2023.155017,Jiangsu,Hubei
+801,2023.155817,Anhui,Jiangsu
+802,2023.156137,Jiangsu,Henan
+803,2023.156147,Sichuan,Hubei
+804,2023.156147,Yunnan,Xinjiang
+805,2023.156147,Shanxi,Shandong
+806,2023.156157,Sichuan,Xinjiang
+807,2023.156157,Jiangsu,Hainan
+808,2023.156157,Zhejiang,Shandong
+809,2023.156157,Taiwan,Hainan
+810,2023.158887,Jiangsu,Yunnan
+811,2023.159227,Hubei,Shanghai
+812,2023.159627,Hebei,Beijing
+813,2023.159637,Hong Kong,Fujian
+814,2023.159817,Jilin,Heilongjiang
+815,2023.161617,Yunnan,Qinghai
+816,2023.161617,Tianjin,Chongqing
+817,2023.161627,Yunnan,Gansu
+818,2023.161627,Zhejiang,Henan
+819,2023.163087,Hubei,Zhejiang
+820,2023.164367,Sichuan,Zhejiang
+821,2023.164367,Hainan,Yunnan
+822,2023.164367,Shanghai,Henan
+823,2023.164367,Zhejiang,Yunnan
+824,2023.164377,Tianjin,Shanxi
+825,2023.164377,Liaoning,Fujian
+826,2023.164957,Jiangsu,Qinghai
+827,2023.165587,Yunnan,Hong Kong
+828,2023.166367,Guangdong,Anhui
+829,2023.167107,Sichuan,Yunnan
+830,2023.167107,Sichuan,Zhejiang
+831,2023.167107,Jiangsu,Heilongjiang
+832,2023.167117,Tianjin,Zhejiang
+833,2023.167117,Hong Kong,Hubei
+834,2023.167447,Sichuan,Shanghai
+835,2023.168117,Jiangsu,Guangdong
+836,2023.168807,Chongqing,Shanxi
+837,2023.169647,Taiwan,Hubei
+838,2023.169847,Shanghai,Anhui
+839,2023.169847,Tianjin,Beijing
+840,2023.172297,Jiangsu,Inner Mongolia
+841,2023.172577,Jiangsu,Guangdong
+842,2023.172587,Shanghai,Sichuan
+843,2023.172597,Sichuan,Gansu
+844,2023.172597,Qinghai,Shanxi
+845,2023.172597,Hubei,Tianjin
+846,2023.172617,Jiangsu,Hubei
+847,2023.172827,Shanxi,Heilongjiang
+848,2023.174087,Shanghai,Heilongjiang
+849,2023.175317,Anhui,Tianjin
+850,2023.175317,Beijing,Hainan
+851,2023.175327,Sichuan,Hainan
+852,2023.175327,Hebei,Guangdong
+853,2023.175327,Jiangsu,Hainan
+854,2023.175337,Henan,Hainan
+855,2023.175337,Shanghai,Henan
+856,2023.175337,Yunnan,Anhui
+857,2023.175357,Shanghai,Guangdong
+858,2023.178237,Shaanxi,Anhui
+859,2023.178927,Sichuan,Xinjiang
+860,2023.180807,Jiangsu,Zhejiang
+861,2023.180817,Yunnan,Shaanxi
+862,2023.180837,Jiangsu,Hubei
+863,2023.180837,Guangdong,Beijing
+864,2023.182427,Jiangsu,Jiangxi
+865,2023.183537,Zhejiang,Tianjin
+866,2023.183547,Jiangsu,Yunnan
+867,2023.183547,Hong Kong,Guangdong
+868,2023.183547,Zhejiang,Guangdong
+869,2023.183547,Jiangsu,Guangdong
+870,2023.186277,Hainan,Henan
+871,2023.186297,Guangdong,Hebei
+872,2023.186807,Jiangsu,Hubei
+873,2023.186937,Beijing,Yunnan
+874,2023.187847,Henan,Xinjiang
+875,2023.188597,Hubei,Jiangxi
+876,2023.189017,Shanghai,Jiangsu
+877,2023.189027,Jilin,Liaoning
+878,2023.189037,Inner Mongolia,Shanxi
+879,2023.191757,Gansu,Hebei
+880,2023.191767,Sichuan,Beijing
+881,2023.191767,Ningxia,Inner Mongolia
+882,2023.191767,Shanghai,Heilongjiang
+883,2023.191777,Taiwan,Hong Kong
+884,2023.192707,Henan,Sichuan
+885,2023.193927,Shanghai,Zhejiang
+886,2023.194487,Tianjin,Hebei
+887,2023.194497,Shanghai,Shandong
+888,2023.194507,Shanghai,Jiangsu
+889,2023.194517,Tianjin,Shandong
+890,2023.194517,Shanghai,Hubei
+891,2023.194537,Jiangsu,Zhejiang
+892,2023.194607,Anhui,Liaoning
+893,2023.194817,Hong Kong,Sichuan
+894,2023.195967,Anhui,Henan
+895,2023.196617,Xinjiang,Gansu
+896,2023.197237,Tianjin,Guangdong
+897,2023.197247,Jiangsu,Zhejiang
+898,2023.197257,Hubei,Heilongjiang
+899,2023.197257,Hubei,Hebei
+900,2023.199997,Liaoning,Anhui
+901,2023.200777,Hubei,Beijing
+902,2023.200947,Shanghai,Beijing
+903,2023.201087,Guangxi,Jiangxi
+904,2023.201527,Liaoning,Fujian
+905,2023.202537,Hubei,Henan
+906,2023.202717,Heilongjiang,Inner Mongolia
+907,2023.202717,Shanxi,Guangxi
+908,2023.202727,Sichuan,Zhejiang
+909,2023.202727,Hebei,Guangdong
+910,2023.202727,Inner Mongolia,Shaanxi
+911,2023.202727,Jiangxi,Guangxi
+912,2023.202737,Tianjin,Zhejiang
+913,2023.202737,Zhejiang,Fujian
+914,2023.202777,Hong Kong,Shanghai
+915,2023.202977,Sichuan,Yunnan
+916,2023.203937,Hubei,Xinjiang
+917,2023.204427,Jiangsu,Sichuan
+918,2023.204707,Shandong,Anhui
+919,2023.205077,Jiangsu,Anhui
+920,2023.205457,Anhui,Henan
+921,2023.205457,Zhejiang,Fujian
+922,2023.205467,Anhui,Sichuan
+923,2023.205467,Henan,Sichuan
+924,2023.205467,Shaanxi,Hebei
+925,2023.205467,Yunnan,Fujian
+926,2023.205477,Hebei,Gansu
+927,2023.208207,Sichuan,Tianjin
+928,2023.208487,Hubei,Zhejiang
+929,2023.208987,Shanghai,Jiangsu
+930,2023.209097,Shanghai,Guangdong
+931,2023.210947,Sichuan,Inner Mongolia
+932,2023.210947,Tianjin,Jilin
+933,2023.210947,Shandong,Hebei
+934,2023.210957,Liaoning,Jilin
+935,2023.210967,Jiangsu,Inner Mongolia
+936,2023.211437,Shanghai,Sichuan
+937,2023.213677,Anhui,Shanghai
+938,2023.213677,Hebei,Jilin
+939,2023.213677,Henan,Hebei
+940,2023.213687,Guangxi,Shanghai
+941,2023.213687,Inner Mongolia,Jilin
+942,2023.213687,Yunnan,Zhejiang
+943,2023.213687,Jiangxi,Guangxi
+944,2023.213687,Jiangxi,Guangxi
+945,2023.213817,Jiangsu,Shanghai
+946,2023.216407,Tianjin,Jiangxi
+947,2023.216417,Hebei,Jilin
+948,2023.216427,Shanghai,Jilin
+949,2023.216427,Zhejiang,Jiangsu
+950,2023.216427,Sichuan,Shaanxi
+951,2023.216427,Inner Mongolia,Jilin
+952,2023.216427,Jiangsu,Hubei
+953,2023.216927,Anhui,Heilongjiang
+954,2023.219167,Shanghai,Inner Mongolia
+955,2023.219167,Shanghai,Shaanxi
+956,2023.219167,Beijing,Jilin
+957,2023.219167,Zhejiang,Jiangsu
+958,2023.219167,Guangxi,Hebei
+959,2023.219167,Chongqing,Jilin
+960,2023.219297,Fujian,Taiwan
+961,2023.219487,Hubei,Jiangxi
+962,2023.221077,Taiwan,Shanghai
+963,2023.221897,Guangdong,Hebei
+964,2023.221897,Hebei,Jilin
+965,2023.221907,Liaoning,Jilin
+966,2023.223017,Hubei,Jiangsu
+967,2023.223117,Jiangsu,Yunnan
+968,2023.223287,Zhejiang,Beijing
+969,2023.223547,Shaanxi,Sichuan
+970,2023.224037,Taiwan,Hong Kong
+971,2023.224537,Henan,Jiangsu
+972,2023.224647,Shaanxi,Hebei
+973,2023.224647,Tianjin,Inner Mongolia
+974,2023.226367,Hubei,Anhui
+975,2023.226567,Beijing,Shanghai
+976,2023.226937,Anhui,Hubei
+977,2023.227377,Jiangsu,Henan
+978,2023.227397,Hubei,Jiangsu
+979,2023.227397,Zhejiang,Sichuan
+980,2023.227407,Henan,Sichuan
+981,2023.228507,Jiangsu,Hubei
+982,2023.230117,Sichuan,Xinjiang
+983,2023.230127,Beijing,Zhejiang
+984,2023.230977,Hong Kong,Anhui
+985,2023.231357,Hubei,Jiangxi
+986,2023.231467,Hubei,Anhui
+987,2023.232107,Beijing,Hubei
+988,2023.232187,Hubei,Xinjiang
+989,2023.232267,Jiangsu,Shanghai
+990,2023.232857,Yunnan,Liaoning
+991,2023.232867,Shanxi,Shandong
+992,2023.232877,Hubei,Zhejiang
+993,2023.233367,Shanghai,Jiangxi
+994,2023.234327,Henan,Yunnan
+995,2023.235467,Shanghai,Guangdong
+996,2023.235597,Beijing,Tianjin
+997,2023.235597,Hubei,Henan
+998,2023.235607,Xinjiang,Tianjin
+999,2023.235607,Guizhou,Guangxi
+1000,2023.235607,Taiwan,Yunnan
+1001,2023.235607,Hubei,Hebei
+1002,2023.235637,Jiangxi,Fujian
+1003,2023.237727,Hubei,Jiangxi
+1004,2023.238027,Shanghai,Anhui
+1005,2023.238327,Tianjin,Jiangxi
+1006,2023.238337,Hainan,Hubei
+1007,2023.238347,Guangxi,Inner Mongolia
+1008,2023.238347,Shaanxi,Hebei
+1009,2023.238357,Hubei,Anhui
+1010,2023.238477,Fujian,Jiangsu
+1011,2023.238827,Guangdong,Shanghai
+1012,2023.238977,Hong Kong,Jiangsu
+1013,2023.239257,Anhui,Inner Mongolia
+1014,2023.241077,Shanghai,Inner Mongolia
+1015,2023.241087,Sichuan,Hebei
+1016,2023.241087,Shanghai,Taiwan
+1017,2023.243817,Shandong,Henan
+1018,2023.243817,Chongqing,Inner Mongolia
+1019,2023.243817,Gansu,Inner Mongolia
+1020,2023.243817,Heilongjiang,Inner Mongolia
+1021,2023.243827,Jilin,Liaoning
+1022,2023.243837,Hubei,Shanghai
+1023,2023.244127,Hubei,Zhejiang
+1024,2023.244617,Hubei,Xinjiang
+1025,2023.245467,Hubei,Heilongjiang
