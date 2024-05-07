@@ -1,0 +1,24 @@
+{
+  "dataset_dir": "/home/soniali/Desktop/02_china_recom_renew/0_raw_data/GISAID_nextclade/",
+  "input": {
+    "populations": [
+      "*"
+    ],
+    "alignment": null
+  },
+  "population": null,
+  "parents": null,
+  "knockout": null,
+  "mask": [
+    100,
+    200
+  ],
+  "max_iter": 3,
+  "max_parents": 2,
+  "min_parents": 2,
+  "min_consecutive": 3,
+  "min_length": 500,
+  "min_subs": 1,
+  "naive": false,
+  "output_dir": "output/China_SARS-CoV-2"
+}

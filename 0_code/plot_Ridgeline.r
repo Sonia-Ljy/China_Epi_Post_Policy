@@ -7,7 +7,7 @@ library(dplyr)
 library(reshape2)
 library(patchwork) 
 
-setwd("/home/soniali/Desktop/02_china_recom_github/1_epi/world_china_compare_GISAID/")
+setwd("/home/soniali/Desktop/02_china_recom_renew/1_epi/world_china_compare_GISAID/")
 df <- read.table("Qualified_world_china_meta_merged_202212_202310.txt",sep = ",",header = TRUE)
 
 unique(df$merged_lineage)
@@ -24,7 +24,7 @@ unique(new_df$merged_lineage)
 
 df_date_country  <- data.frame()
 colors_list = c("#82ADCF","#4F72B1","#F0B26D","#F4D586","#B7D7E9","#5D9488","#9372A9","#C5432E") 
-lineages = c( 'BA.5.2*',  'BA.2.75*', 'BF.7.14*', 'XBB.1.5*',  'XBB.2.3*','XBB.1.16*','XBB.1.22*','XBB.1.9*')
+lineages = c('BA.5.2.48*', 'BF.7.14*', 'BA.2.75*', 'XBB.1.5*', 'XBB.1.9.1*', 'XBB.1.22.1*', 'XBB.1.16*', 'EG.5.1*')
 new_df$merged_lineage <- factor(new_df$merged_lineage,level = lineages) 
 
 p1 <- ggplot(new_df, aes(x=date_num, y=country, color=merged_lineage, point_color=merged_lineage, fill=merged_lineage)) +

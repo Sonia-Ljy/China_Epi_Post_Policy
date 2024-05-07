@@ -1,11 +1,7 @@
-'''
-Author: Sonia-Ljy
-Date: 2024-01-08 18:22:16
-LastEditors: Sonia-Ljy lijysunny@sina.com
-LastEditTime: 2024-04-23 21:58:10
-FilePath: /undefined/home/soniali/Desktop/01_china_recom/0_code/get_lineagesFV_and_mutationNum_china.py
-Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
-'''
+
+import pandas as pd
+from Bio import SeqIO
+
 
 def get_pp_loc(mut):
     if "del" in mut or "ins" in mut:
@@ -109,8 +105,6 @@ def sort_epi_mutation(epiV):
     return sort_epiV
 
 
-import pandas as pd
-from Bio import SeqIO
 
 # 查看有多少是被nextclade判定为重组的序列
 dirpath = "/home/soniali/Desktop/02_china_recom_github/0_raw_data/GISAID_nextclade/"
@@ -140,7 +134,7 @@ with open("/home/soniali/Desktop/02_china_recom_github/3_recom/aligned_china_nex
     for record in SeqIO.parse(f,"fasta"):
         seq_id_fas[str(record.id)] = str(record.seq)
         
-        
+
 # 根据GISAID获取的全球meta文件中所有序列的谱系及氨基酸变异信息，计算各谱系的特征变异，以10%或75%为阈值
 import pandas as pd
 df = pd.DataFrame(columns=["strain","date","country","province","lineage","mutation"])

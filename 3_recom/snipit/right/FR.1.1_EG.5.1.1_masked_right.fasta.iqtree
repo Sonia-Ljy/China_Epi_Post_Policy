@@ -1,0 +1,203 @@
+IQ-TREE 2.1.4-beta COVID-edition built Jun 24 2021
+
+Input file name: FR.1.1_EG.5.1.1_masked_right.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 283464
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 11 sequences with 29903 nucleotide sites
+Number of constant sites: 29836 (= 99.7759% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 29836 (= 99.7759% of all sites)
+Number of parsimony informative sites: 18
+Number of distinct site patterns: 44
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+HKY+F            -10394.570   20835.140 -   0.0288   20835.177 -   0.0289   21026.171 +    0.843
+TN+F             -10391.637   20831.273 +    0.199   20831.313 +    0.199   21030.610 +   0.0916
+K3Pu+F           -10393.069   20834.138 -   0.0474   20834.178 -   0.0475   21033.475 -   0.0219
+F81+F            -10403.915   20851.829 - 6.83e-06   20851.863 - 6.87e-06   21034.555 -   0.0127
+TPM3+F           -10394.041   20836.081 -    0.018   20836.121 -    0.018   21035.418 -  0.00828
+TPM3u+F          -10394.042   20836.084 -   0.0179   20836.124 -    0.018   21035.421 -  0.00827
+TPM2+F           -10394.535   20837.071 -   0.0109   20837.111 -    0.011   21036.408 -  0.00505
+TPM2u+F          -10394.535   20837.071 -   0.0109   20837.111 -    0.011   21036.408 -  0.00505
+TIM+F            -10390.115   20830.230 +    0.335   20830.273 +    0.335   21037.872 -  0.00243
+TIM3+F           -10391.087   20832.175 +    0.127   20832.218 +    0.127   21039.817 - 0.000918
+TIM2+F           -10391.572   20833.145 +    0.078   20833.188 +    0.078   21040.788 - 0.000565
+TVM+F            -10392.804   20837.608 -  0.00837   20837.655 -  0.00835   21053.557 - 9.53e-07
+GTR+F            -10389.844   20833.687 +   0.0594   20833.738 +   0.0592   21057.942 - 1.06e-07
+GTR+F+I          -10389.842   20835.683 -   0.0219   20835.738 -   0.0218   21068.243 - 6.17e-10
+GTR+F+G4         -10389.842   20835.685 -   0.0219   20835.739 -   0.0218   21068.245 - 6.16e-10
+GTR+F+R2         -10389.889   20837.778 -  0.00769   20837.836 -  0.00763   21078.644 -  3.4e-12
+GTR+F+I+G4       -10389.942   20837.884 -  0.00729   20837.942 -  0.00724   21078.750 - 3.23e-12
+GTR+F+R3         -10389.905   20841.810 -  0.00102   20841.876 -  0.00101   21099.287 - 1.12e-16
+K2P              -10555.673   21151.346 - 6.24e-71   21151.375 - 6.29e-71   21317.461 - 4.71e-64
+TNe              -10552.253   21146.506 - 7.02e-70   21146.537 - 7.07e-70   21320.926 - 8.33e-65
+JC               -10564.346   21166.691 - 2.91e-74   21166.717 - 2.93e-74   21324.500 -  1.4e-65
+K3P              -10554.498   21150.995 - 7.44e-71   21151.026 - 7.49e-71   21325.415 - 8.83e-66
+TIMe             -10551.095   21146.189 - 8.23e-70   21146.223 - 8.27e-70   21328.915 - 1.53e-66
+TIM3e            -10552.141   21148.283 - 2.89e-70   21148.316 -  2.9e-70   21331.008 - 5.39e-67
+TIM2e            -10552.265   21148.530 - 2.55e-70   21148.564 - 2.56e-70   21331.255 - 4.76e-67
+TVMe             -10554.393   21154.787 - 1.12e-71   21154.824 - 1.12e-71   21345.818 - 3.28e-70
+SYM              -10550.987   21149.975 - 1.24e-70   21150.015 - 1.24e-70   21349.312 - 5.71e-71
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 2.9066
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 2.9066
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2895
+  pi(C) = 0.21
+  pi(G) = 0.197
+  pi(T) = 0.3034
+
+Rate matrix Q:
+
+  A   -0.9038    0.1748    0.4765    0.2525
+  C    0.2409    -1.139     0.164    0.7339
+  G    0.7002    0.1748    -1.128    0.2525
+  T    0.2409     0.508     0.164   -0.9129
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -10394.5698 (s.e. 121.2241)
+Unconstrained log-likelihood (without tree): -27499.9442
+Number of free parameters (#branches + #model parameters): 23
+Akaike information criterion (AIC) score: 20835.1396
+Corrected Akaike information criterion (AICc) score: 20835.1766
+Bayesian information criterion (BIC) score: 21026.1711
+
+Total tree length (sum of branch lengths): 0.0094
+Sum of internal branch lengths: 0.0025 (26.8098% of tree length)
+
+WARNING: 4 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Reference' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
+             +--EPI_ISL_18114672_EG.5.1.1
++------------| (99.6/100)
+|            |  +**EPI_ISL_18105651_EG.5.1.1
+|            +**| (0/66)
+|               |          +**EPI_ISL_18401744_XCN
+|               |       +**| (0/38)
+|               |       |  +**EPI_ISL_18289815_XCN
+|               |    +**| (0/47)
+|               |    |  |  +**EPI_ISL_18289774_XCN
+|               |    |  +**| (0/69)
+|               |    |     +**EPI_ISL_18289734_XCN
+|               +----| (97.4/100)
+|                    |  +--EPI_ISL_18284946_XCN
+|                    +--| (83.3/79)
+|                       +**EPI_ISL_18105656_XCN
+|
+|  +--EPI_ISL_18105577_FR.1.1
++--| (90.6/94)
+|  +**EPI_ISL_18074780_FR.1.1
+|
++-----------------------------------------------------------Reference
+
+Tree in newick format:
+
+((EPI_ISL_18114672_EG.5.1.1:0.0001392173,(EPI_ISL_18105651_EG.5.1.1:0.0000010000,(((EPI_ISL_18401744_XCN:0.0000010000,EPI_ISL_18289815_XCN:0.0000010000)0/38:0.0000010000,(EPI_ISL_18289774_XCN:0.0000010000,EPI_ISL_18289734_XCN:0.0000010000)0/69:0.0000010000)0/47:0.0000010000,(EPI_ISL_18284946_XCN:0.0001401404,EPI_ISL_18105656_XCN:0.0000010000)83.3/79:0.0001401448)97.4/100:0.0005607296)0/66:0.0000010000)99.6/100:0.0013984681,(EPI_ISL_18105577_FR.1.1:0.0001401487,EPI_ISL_18074780_FR.1.1:0.0000010000)90.6/94:0.0004161634,Reference:0.0064404941);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -10394.649350
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+             +--EPI_ISL_18114672_EG.5.1.1
++------------| (100)
+|            |  +--EPI_ISL_18105651_EG.5.1.1
+|            +--| (66)
+|               |          +--EPI_ISL_18401744_XCN
+|               |       +--| (38)
+|               |       |  +--EPI_ISL_18289815_XCN
+|               |    +--| (47)
+|               |    |  |  +--EPI_ISL_18289774_XCN
+|               |    |  +--| (69)
+|               |    |     +--EPI_ISL_18289734_XCN
+|               +----| (100)
+|                    |  +--EPI_ISL_18284946_XCN
+|                    +--| (79)
+|                       +--EPI_ISL_18105656_XCN
+|
+|  +--EPI_ISL_18105577_FR.1.1
++--| (94)
+|  +--EPI_ISL_18074780_FR.1.1
+|
++-----------------------------------------------------------Reference
+
+
+Consensus tree in newick format: 
+
+((EPI_ISL_18114672_EG.5.1.1:0.0001392071,(EPI_ISL_18105651_EG.5.1.1:0.0000020138,(((EPI_ISL_18401744_XCN:0.0000020138,EPI_ISL_18289815_XCN:0.0000020138)38:0.0000020138,(EPI_ISL_18289774_XCN:0.0000020138,EPI_ISL_18289734_XCN:0.0000020138)69:0.0000020138)47:0.0000020138,(EPI_ISL_18284946_XCN:0.0001401400,EPI_ISL_18105656_XCN:0.0000020138)79:0.0001401503)100:0.0005606490)66:0.0000020138)100:0.0013993302,(EPI_ISL_18105577_FR.1.1:0.0001401302,EPI_ISL_18074780_FR.1.1:0.0000020138)94:0.0004161584,Reference:0.0064404187);
+
+TIME STAMP
+----------
+
+Date and time: Tue May  7 19:31:35 2024
+Total CPU time used: 4.153477 seconds (0h:0m:4s)
+Total wall-clock time used: 3.991315126 seconds (0h:0m:3s)
+

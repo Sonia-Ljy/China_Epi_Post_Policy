@@ -1,5 +1,5 @@
 library(ggplot2)
-library(readxl)
+library("readxl")
 library(tidyverse)
 library(dplyr)
 library(ggpubr)
@@ -7,11 +7,11 @@ library(cowplot)
 library(ggthemes)
 library(viridis)
 library(ggrepel)
-library(gridExtra)
-library(data.table)
-library(scales)
-library(lubridate)
-library(patchwork)
+library('gridExtra')
+library('data.table')
+library('scales')
+library('lubridate')
+library("patchwork")
 library(sp)
 library(rworldmap)
 library(RColorBrewer)
@@ -44,7 +44,8 @@ export2type = function(x,y)
   }
 }
 
-setwd("/home/soniali/Desktop/02_china_recom_github/2_treetime/")
+dirpath = "/home/soniali/Desktop/02_china_recom_renew/2_treetime/"
+setwd(dirpath)
 worldmap <- getMap()
 world_map_data<-worldmap@data
 
@@ -70,7 +71,6 @@ alpha_all_replicates$origin_lat<- lapply(alpha_all_replicates$Origin,country2lat
 alpha_all_replicates$origin_long<- lapply(alpha_all_replicates$Origin,country2long)
 
 world1 <- map_data("world", region = c("China"))
-
 world2<- world1 %>% 
   left_join(alpha_all_replicates, by = c("region" = "Destination"))
 
@@ -102,7 +102,6 @@ alpha_origin_continental<-alpha_all_replicates %>%
   count(Origin)
 colnames(alpha_origin_continental)<-c("replicate","Province","Exports")
 
-
 alpha_destination_continental<-alpha_all_replicates %>%
   group_by(replicate)  %>%
   count(Destination)
@@ -112,6 +111,14 @@ alpha_source_sink<-left_join(subset(alpha_origin_continental,Province!='characte
 alpha_source_sink$net_movements<-alpha_source_sink$Exports-alpha_source_sink$Imports
 colnames(alpha_source_sink)<-c("replicate","Origin_Continent","Exports","Imports",'net_movements')
 
+setwd(dirpath)
+
+# alpha_source_sink$total = alpha_source_sink$Exports + alpha_source_sink$Imports
+# alpha_source_sink <- alpha_source_sink %>%
+#   mutate(name = fct_reorder(Origin_Continent, desc(total))) #%>%
+# alpha_source_sink2 <-   mutate(alpha_source_sink, name = fct_reorder(Origin_Continent, desc(total))) 
+# sorted_data <- alpha_source_sink2[order(alpha_source_sink2$total, decreasing = TRUE), ]
+
 alpha_source_sink$rate = alpha_source_sink$Exports / (alpha_source_sink$Imports +alpha_source_sink$Exports)
 alpha_source_sink <- alpha_source_sink %>%
   mutate(name = fct_reorder(Origin_Continent, desc(rate))) #%>%
@@ -119,33 +126,33 @@ alpha_source_sink2 <-   mutate(alpha_source_sink, name = fct_reorder(Origin_Cont
 sorted_data <- alpha_source_sink2[order(alpha_source_sink2$rate, decreasing = TRUE), ]
 levels(sorted_data$name)
 
-alpha_absolutes <- ggplot(alpha_source_sink)+
+alpha_absolutes <- ggplot(sorted_data)+
   theme_minimal()+
   scale_fill_manual(values=c('dodgerblue4','red4'),name="",labels=c("Exports","Imports"))+
   geom_bar(stat='summary',aes(x = reorder(Origin_Continent,rate),y=Exports, fill='Exports'))+ #
   geom_bar(stat='summary',aes(x = reorder(Origin_Continent,rate),y=-Imports, fill='Imports'))+
+  # ggtitle("alpha")+
+  # theme(legend.position = "none")+
   theme(legend.justification = "left")+
   ylab('No. Viral Movements')+
   theme(axis.text=element_text(size=7))+
   scale_y_continuous(limits=c(-200,400),breaks=seq(-200,400,50),labels=abs(seq(-200,400,50)))+
   theme(axis.title.x=element_text(size=8))+
   theme(axis.title.y=element_blank())+
-  coord_flip()+ 
-  theme(legend.key.size = unit(0.2, 'cm'),
-        legend.key.height = unit(0.2, 'cm'), 
+  coord_flip()+ #scale_y_reverse()+
+  theme(legend.key.size = unit(0.2, 'cm'), #change legend key size
+        legend.key.height = unit(0.2, 'cm'), #change legend key height
         legend.key.width = unit(0.2, 'cm'))+
   theme(legend.position = "top")
-
 alpha_absolutes
+
 ggsave(filename = paste0("source_sink_provinces",".pdf"),plot = alpha_absolutes,device = "pdf",width = 5, height = 8)
 
 colors <- rainbow(31)
-colors
 regional_cols<-c("Zhejiang"="#FF0000","Yunnan"="#FF3100","Xinjiang"="#FF6300","Tianjin"="#FF9400","Taiwan"="#FFC500","Sichuan"="#FFF700","Shanxi"="#D6FF00","Shanghai"="#A5FF00","Shandong"="#73FF00","Shaanxi"="#42FF00","Qinghai"="#10FF00","Ningxia"="#00FF21","Liaoning"="#00FF52","Jilin"="#00FF84","Jiangxi"="#00FFB5","Jiangsu"="#00FFE6","Inner Mongolia"="#00E6FF","Hunan"="#00B5FF","Hubei"="#0084FF","Hong Kong"="#0052FF","Henan"="#0021FF","Heilongjiang"="#1000FF","Hebei"="#4200FF","Hainan"="#7300FF","Guizhou"="#A500FF","Guangxi"="#D600FF","Guangdong"="#FF00F7","Gansu"="#FF00C5","Fujian"="#FF0094","Beijing"="#FF0063","Anhui"="#FF0031")
 
 alpha_all_replicates_global_regional<-subset(subset(alpha_all_replicates, Origin!='character(0)'),Destination!='character(0)')
 alpha_all_replicates_global_regional$Export_Type<- mapply(export2type,alpha_all_replicates_global_regional$Origin,alpha_all_replicates_global_regional$Destination)
-
 
 alpha_all_replicates_global_regional_count<-alpha_all_replicates_global_regional %>%
   group_by(Origin,Export_Type)  %>%
@@ -162,21 +169,18 @@ alpha_all_replicates_regional_count<-alpha_all_replicates_regional_count%>%selec
 mycolors<-brewer.pal(6, "RdBu")
 
 # ---------------------------------------------
-# ---------------------------------------------
 # 1599 lines
-threshold = "t50"
+threshold = 11
 d_alpha_links<-alpha_all_replicates %>%
   group_by(Origin,Destination,mean_origin_lat,mean_origin_long,mean_destination_lat,mean_destination_long, mean_date)  %>%
   count()
-d_alpha_links2 <- d_alpha_links[order(d_alpha_links$n, decreasing = TRUE), ]
-# d_alpha_links<-subset(subset(subset(d_alpha_links,n>=threshold),Origin!='character(0)'),Destination!='character(0)')
-d_alpha_links <- head(d_alpha_links2, n = 50)
-
+d_alpha_links<-subset(subset(subset(d_alpha_links,n>=threshold),Origin!='character(0)'),Destination!='character(0)')
 d_alpha_links
-dim(d_alpha_links)
+
 write.table(d_alpha_links,file = "d_alpha_links_full_top50.csv",append = FALSE,sep = ",")
 
-##
+# Continue run 7_treetime_process.ipynb to calculate: china_3945_from_to province_top50_clus.csv
+
 d_alpha_origins<-alpha_all_replicates %>%
   group_by(Origin,mean_origin_lat,mean_origin_long)  %>%
   count()
@@ -204,20 +208,20 @@ alpha_map <- ggplot() +
                                   ticks.linewidth = 2), size='none')+
   scale_y_continuous(limits=c(0,60))+
   scale_x_continuous(limits=c(70,140))+
+  # ggtitle("Main viral transmission pathways")+
   theme(plot.title = element_text(size = rel(1.2), hjust=0.5,lineheight = 0.5,family = "Arial", colour = "black"))
-## B图
+##B图
 alpha_map
 dim(d_alpha_links)
-# ggsave(filename = paste0("china_3000_n_more",threshold,"_",dim(d_alpha_links),"_lines.pdf"),plot = alpha_map,device = "pdf",width = 6, height = 6)
+ggsave(filename = paste0("china_3000_n_more",threshold,"_",dim(d_alpha_links),"_lines.pdf"),plot = alpha_map,device = "pdf",width = 6, height = 6)
 
-file <- "/home/soniali/Desktop/02_china_recom_github/2_treetime/china_3945_from_to province_top50_clus.csv"
+file <- "china_3945_from_to province_top50_clus.csv"
 groufile <- read.table(file,sep = ",",header = TRUE,row.names = 1)
 groufile <- data.frame(groufile)
-## C图
-dirpath <- "/home/soniali/Desktop/02_china_recom_github/2_treetime/"
+groufile
 province_group_color = c("A" = "#A1D256", "B" = "#61B47C","C" = "#488F8B","D" = "#40668B","E" = "#403E82","F" = "#3D0D56")
-library(pheatmap)
 
+library(pheatmap)
 bk <- c(seq(0,10,by=1),seq(10.1,31,by=1))
 p0 <- pheatmap(groufile,
          scale = "none",cluster_cols=TRUE,clustering_distance_rows = "manhattan", display_numbers = matrix(ifelse(groufile >= 11, "*", ""), nrow(groufile)),
@@ -226,12 +230,12 @@ p0 <- pheatmap(groufile,
          legend_breaks=seq(0,31,5),ylab = "left",
          breaks=bk)
 p0
-ggsave(filename = paste0(paste0(dirpath,"china_3945_from_to province_more11"),'.pdf'),plot = p0,device = "pdf",width = 6, height = 5)
+ggsave(filename = paste0(paste0(dirpath,"china_3945_from_to province_more11"),'.pdf'),plot = p0,device = "pdf",width = 8, height = 5)
 
 file <- "china_3945_from_to province_all_clus.csv"
 groufile <- read.table(file,sep = ",",header = TRUE,row.names = 1)
 groufile <- data.frame(groufile)
-
+groufile
 ann_colors = list(Group = province_group_color)
 bk <- c(seq(0,10,by=1),seq(10.1,31,by=1))
 p1 <- pheatmap(groufile,

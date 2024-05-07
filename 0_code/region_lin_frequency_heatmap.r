@@ -2,7 +2,7 @@ library(pheatmap)
 library(RColorBrewer)
 library(circlize)
 library(ggplot2)
-dirpath = "/home/soniali/Desktop/02_china_recom_github/1_epi/"
+dirpath = "/home/soniali/Desktop/02_china_recom_renew/1_epi/"
 setwd(dirpath)
 
 data <- read.csv(paste0(dirpath,"region_lin_frequency_heatmap.csv"), header = TRUE, row.names = 1)
@@ -10,11 +10,10 @@ bk <- c(seq(0,0.2,by=0.01),seq(0.21,1,by=0.01))
 province_group_color = c("A" = "#C59D83", "B" = "#D8BFAB","C" = "#FBEBDA","D" = "#B9B8A5","E" = "#A5A48E","F" = "#6C705E")
 ann_colors = list(Group = province_group_color)
 
-
 data1 <- t(data)
 p1 <- pheatmap(data1,
                scale = "none",cluster_cols=TRUE,clustering_distance_cols = "manhattan",display_numbers = matrix(ifelse(data1 > 0.5, "*", ""), nrow(data1)),
-               cellwidth = 12, cellheight = 15,cutree_cols=8,
+               cellwidth = 12, cellheight = 15,cutree_cols=7,
                # annotation_col = groufile,annotation_colors = ann_colors,
                color = c(colorRampPalette(colors = c("#5774E1","white"))(length(seq(0,0.2,by=0.01))),colorRampPalette(colors = c("white","#B70E29"))(length(seq(0.21,1,by=0.01)))),
                legend_breaks=seq(0,1,0.1),angle_col = 45,fontsize_row = 8,fontsize_col = 7,
@@ -30,7 +29,7 @@ ann_colors = list(Group = province_group_color)
 data1 <- t(data)
 p11 <- pheatmap(data1,
                scale = "none",cluster_cols=TRUE,clustering_distance_cols = "manhattan",display_numbers = matrix(ifelse(data1 > 0.5, "*", ""), nrow(data1)),
-               cellwidth = 12, cellheight = 15,cutree_cols=8,
+               cellwidth = 12, cellheight = 15,cutree_cols=7,
                annotation_col = groufile,annotation_colors = ann_colors,
                color = c(colorRampPalette(colors = c("#5774E1","white"))(length(seq(0,0.2,by=0.01))),colorRampPalette(colors = c("white","#B70E29"))(length(seq(0.21,1,by=0.01)))),
                legend_breaks=seq(0,1,0.1),angle_col = 45,fontsize_row = 8,fontsize_col = 7,
@@ -43,7 +42,7 @@ library(ggplot2)
 library(rmapshaper)
 library(hchinamap)
 
-Rdata<-read.csv("/home/soniali/Desktop/02_china_recom_github/1_epi/China_except_sh.csv")
+Rdata<-read.csv("/home/soniali/Desktop/02_china_recom_renew/1_epi/China_except_sh.csv")
 p_china_except_sh <- hchinamap(name = Rdata$name, 
           value = Rdata$value,
           width = "100%",
@@ -52,7 +51,10 @@ p_china_except_sh <- hchinamap(name = Rdata$name,
           maxColor = "#B8142E",
           region = "China"
 )
-# ggsave(filename = paste0(paste0(dirpath,"China_except_sh.jpeg"),'.jpeg'),plot = p_china_except_sh,device = "pdf")
+total_count <- sum(Rdata$value)
+total_count+9274
+p_china_except_sh
+# ggsave(filename = paste0(paste0(dirpath,"China_except_sh"),'.pdf'),plot = p_china_except_sh,device = "pdf")
 ggsave("China_except_sh.jpeg", plot = p_china_except_sh, width = 10, height = 8, units = "in")
 
 
@@ -64,11 +66,12 @@ library(tidyverse)
 library(sf)
 library(ggrepel)
 
+unique(china$Name_Province)
 code <- china$Code_Province
 pro_eng <- china$Name_Province
 unique(pro_eng)
-values <- c("安徽省","北京市","重庆市","福建省","甘肃省","广东省","广西壮族自治区","贵州省","海南省","河北省","黑龙江省","河南省","香港省","湖北省","湖南省","内蒙古自治区","江苏省","江西省","吉林省","辽宁省","宁夏回族自治区","青海省","山东省","上海市","山西省","陕西省","四川省","台湾省","天津市","新疆维吾尔自治区","西藏自治区","云南省","浙江省")
-names <- c("Anhui","Beijing","Chongqing","Fujian","Gansu","Guangdong","Guangxi","Guizhou","Hainan","Hebei","Heilongjiang","Henan","Hong Kong","Hubei","Hunan","Inner Mongolia","Jiangsu","Jiangxi","Jilin","Liaoning","Ningxia","Qinghai","Shandong","Shanghai","Shanxi","Shaanxi","Sichuan","Taiwan","Tianjin","Xinjiang","Xizang","Yunnan","Zhejiang")
+values <- c("安徽省","北京市","重庆市","福建省","甘肃省","广东省","广西壮族自治区","贵州省","海南省","河北省","黑龙江省","河南省","湖北省","湖南省","内蒙古自治区","江苏省","江西省","吉林省","辽宁省","宁夏回族自治区","青海省","山东省","上海市","山西省","陕西省","四川省","台湾省","天津市","新疆维吾尔自治区","西藏自治区","云南省","浙江省","台湾省","香港特别行政区")
+names <- c("Anhui","Beijing","Chongqing","Fujian","Gansu","Guangdong","Guangxi","Guizhou","Hainan","Hebei","Heilongjiang","Henan","Hubei","Hunan","Inner Mongolia","Jiangsu","Jiangxi","Jilin","Liaoning","Ningxia","Qinghai","Shandong","Shanghai","Shanxi","Shaanxi","Sichuan","Taiwan","Tianjin","Xinjiang","Xizang","Yunnan","Zhejiang","Taiwan","Hong Kong")
 my_dict_EC <- setNames( values,names)
 my_dict_CE <- setNames( names,values)
 
@@ -115,11 +118,18 @@ for (i in seq(from=1, to=length(all_province))){
   temp_code = as.integer(unique(subset(china, Name_Province == my_dict_EC[all_province[i]])$Code_Province))
   all_code = c(all_code,temp_code)
 }
+
 df3 <- china %>%
   filter(Code_Province %in% as.character(all_code))
+sf_use_s2(FALSE)
+
 df3 <- df3 %>%
   group_by(Name_Province) %>%
   summarise(geometry = st_union(geometry))
+# 
+# df3 <- group_by(df3, Name_Province)
+# df3 <- summarise(df3, geometry = st_union(geometry))
+
 select_province_engB = c()
 for (j in df3$Name_Province){
   select_province_engB = c(select_province_engB,my_dict_CE[j])

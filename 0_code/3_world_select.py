@@ -1,3 +1,4 @@
+
 import pandas as pd
 
 df = pd.DataFrame(columns=["strain","date","country","lineage"])
@@ -22,6 +23,10 @@ with open("/Data4/GISAID_Data/20231118/metadata_20231118.tsv") as file:
         else:
             continue
 
-df.to_csv("/Data4/GISAID_Data/20231026/metadata_enrolled_."+str(num)+"tsv",index = None)
+df.to_csv("/Data4/GISAID_Data/20231118/metadata_enrolled_."+str(num)+"tsv",index = None)
 
 
+# ssh wap@192.168.XX.XXX:/Data4/GISAID_Data/20231118/
+# cat metadata_enrolled_*.tsv > meta_world_202212_202310.tsv
+# rm metadata_enrolled_*.tsv
+# scp meta_world_202212_202310.tsv soniali@192.168.14.235:/home/soniali/Desktop/02_china_recom_renew/1_epi/world_china_compare_GISAID/
