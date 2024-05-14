@@ -6,7 +6,7 @@ This project aims to analyze the spatio-temporal characteristics of SARS-CoV-2 l
 
 The findings of this project are detailed in the corresponding paper:
 
-**Title:** The spatio-temporal and transmission analysis of the SARS-CoV-2 virus in China since the termination of the dynamic zero-COVID policy
+**Title:** The spatiotemporal analysis of  SARS-CoV-2 transmission in China since the termination of the dynamic zero-COVID policy
 
 ### Data Availability
 
